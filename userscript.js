@@ -1,7 +1,6 @@
 var num = 0;
 setInterval(function(){
-	var matches = document.getElementById('cw_favicon').href.match(/n(\d+)\.ico$/);
-	var current_num = parseInt(matches[1], 10);
+	var current_num = document.getElementById('cw_total_unread_room').innerHTML;
 	
 	if (current_num != num){
 		num = current_num;
