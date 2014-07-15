@@ -1,6 +1,6 @@
 var num = 0;
 setInterval(function(){
-	var current_num = document.getElementById('cw_total_unread_room').innerHTML;
+	var current_num = document.getElementById('_chatUnreadStatus').innerHTML;
 	
 	if (current_num != num){
 		num = current_num;
